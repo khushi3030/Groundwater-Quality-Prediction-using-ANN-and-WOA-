@@ -5,12 +5,7 @@ Created on Wed Jul 12 00:37:18 2023
 @author: KHUSHI CHAUHAN
 """
 
-# -*- coding: utf-8 -*-
-"""
-Created on Tue May  9 16:45:35 2023
 
-@author: Nupur
-"""
 
 import pandas as pd
 from sklearn.preprocessing import StandardScaler
