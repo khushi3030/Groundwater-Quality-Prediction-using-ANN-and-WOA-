@@ -56,9 +56,12 @@ Follow the steps below to set up the environment, train the model, and run predi
 ```bash
 git clone https://github.com/khushi3030/Groundwater-Quality-Prediction-using-ANN-and-WOA
 cd Groundwater-Quality-Prediction-using-ANN-and-WOA
+```bash
 
 ### 2. Install Dependencies
+```bash
 pip install -r requirements.txt
+```bash
 
 ### 3. Prepare the Dataset
 Place your groundwater data file inside the data/ folder.
@@ -67,14 +70,16 @@ Rename it as needed (for example: raw_data.csv or whatever your script expects).
 ### 4. Train the ANN + WOA Model
 
 Run the training script to build and optimize the model:
-
+```bash
 python train_model.py
+```bash
 
 ### 5. Run Predictions
 
 To predict groundwater quality for new input data, use:
-
+```bash
 python predict_quality.py --input <your_file.csv>
+```bash
 
 
 The prediction script accepts a CSV file and outputs the corresponding groundwater-quality value.
